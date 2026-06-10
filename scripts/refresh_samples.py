@@ -47,8 +47,17 @@ def fetch_usgs_groundwater(site: str, start: str, end: str, out_name: str):
 def main():
     print("Refreshing data samples...\n")
 
-    # Module 1 & 2: Missouri River at Omaha (USGS 06803495) — large perennial river
     print("USGS streamflow samples:")
+
+    # Module 1 (01-colab-intro): Missouri River at Omaha — 2000-2015 includes 2011 flood
+    fetch_usgs_daily(
+        site="06803495",
+        start="2000-01-01",
+        end="2015-12-31",
+        out_name="usgs_06803495_daily_2000_2015.parquet",
+    )
+
+    # Module 2 (01-usgs-nwis): same gauge, shorter window for data-sources lesson
     fetch_usgs_daily(
         site="06803495",
         start="2000-01-01",
