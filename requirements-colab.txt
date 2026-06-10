@@ -1,0 +1,14 @@
+# Packages to install on Google Colab (Colab already has numpy, pandas,
+# matplotlib, scipy, scikit-learn, torch — only add what's missing)
+jupyter-book>=1.0.3,<2.0.0
+jupyterquiz>=2.6.0
+dataretrieval>=1.0.0
+xarray>=2023.6.0
+gcsfs>=2023.6.0
+fsspec>=2023.6.0
+geopandas>=0.13.0
+shap>=0.43.0
+climate-indices>=1.0.10
+lmoments3>=1.0.5
+statsmodels>=0.14.0
+plotly>=5.15.0

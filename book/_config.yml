@@ -1,0 +1,40 @@
+title: "Hydrology Meets Machine Learning"
+author: "Pablo Merchan"
+logo: logo.png
+copyright: "2026"
+
+# Execution settings
+execute:
+  execute_notebooks: cache
+  timeout: 600
+  exclude_patterns:
+    - "**/*optional*"
+
+# Repository info
+repository:
+  url: https://github.com/mr-pablinho/drops-course
+  path_to_book: book
+  branch: main
+
+# GitHub buttons
+html:
+  use_issues_button: true
+  use_repository_button: true
+  use_edit_page_button: true
+  extra_navbar: ""
+  google_analytics_id: ""
+
+# Launch buttons — Colab only (Binder disabled; see Decision Log)
+launch_buttons:
+  colab_url: "https://colab.research.google.com"
+  notebook_interface: "classic"
+
+# Bibliography
+bibtex_bibfiles:
+  - references.bib
+
+# Sphinx extensions
+sphinx:
+  config:
+    html_show_copyright: false
+    nb_execution_show_tb: true

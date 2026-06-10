@@ -1,0 +1,68 @@
+format: jb-book
+root: intro
+parts:
+  - caption: "Module 1: Python for Hydrologists"
+    chapters:
+      - file: 01-python-for-hydrology/01-colab-intro
+      - file: 01-python-for-hydrology/02-numpy-pandas
+      - file: 01-python-for-hydrology/03-visualization
+      - file: 01-python-for-hydrology/04-dates-resampling
+      - file: 01-python-for-hydrology/quiz
+
+  - caption: "Module 2: Hydrological Data Sources"
+    chapters:
+      - file: 02-hydrological-data/01-usgs-nwis
+      - file: 02-hydrological-data/02-era5-zarr
+      - file: 02-hydrological-data/03-caravan
+      - file: 02-hydrological-data/04-data-quality
+      - file: 02-hydrological-data/quiz
+      - file: 02-hydrological-data/05-cds-api-optional
+
+  - caption: "Module 3: Exploratory Data Analysis"
+    chapters:
+      - file: 03-exploratory-analysis/01-flow-duration-curves
+      - file: 03-exploratory-analysis/02-correlation-seasonality
+      - file: 03-exploratory-analysis/03-spatial-geopandas
+      - file: 03-exploratory-analysis/quiz
+
+  - caption: "Module 4: Classical ML in Hydrology"
+    chapters:
+      - file: 04-classical-ml/01-ml-fundamentals-temporal
+      - file: 04-classical-ml/02-regression-rainfall-runoff
+      - file: 04-classical-ml/03-random-forests
+      - file: 04-classical-ml/04-shap-explainability
+      - file: 04-classical-ml/quiz
+
+  - caption: "Module 5: Time Series & Forecasting"
+    chapters:
+      - file: 05-time-series-forecasting/01-ts-concepts
+      - file: 05-time-series-forecasting/02-arima
+      - file: 05-time-series-forecasting/03-lstm-pytorch
+      - file: 05-time-series-forecasting/04-evaluation-metrics
+      - file: 05-time-series-forecasting/quiz
+      - file: 05-time-series-forecasting/05-hybrid-models-optional
+
+  - caption: "Module 6: Floods & Extreme Events"
+    chapters:
+      - file: 06-floods-extreme-events/01-flood-frequency
+      - file: 06-floods-extreme-events/02-peak-flow-ml
+      - file: 06-floods-extreme-events/03-early-warning
+      - file: 06-floods-extreme-events/quiz
+
+  - caption: "Module 7: Groundwater"
+    chapters:
+      - file: 07-groundwater/01-data-sources
+      - file: 07-groundwater/02-water-table-ml
+      - file: 07-groundwater/03-anomaly-detection
+      - file: 07-groundwater/quiz
+
+  - caption: "Module 8: Drought & Water Scarcity"
+    chapters:
+      - file: 08-drought-water-scarcity/01-drought-indices
+      - file: 08-drought-water-scarcity/02-indices-from-era5
+      - file: 08-drought-water-scarcity/03-drought-forecasting
+      - file: 08-drought-water-scarcity/quiz
+
+  - caption: "Module 9: Capstone Project"
+    chapters:
+      - file: 09-capstone/capstone

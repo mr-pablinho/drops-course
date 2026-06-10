@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use this course in your teaching or research, please cite it."
+type: software
+title: "Hydrology Meets Machine Learning"
+abstract: "A free, interactive online course on machine learning, data science, and AI applied to hydrology. Uses real datasets (USGS, Caravan, ERA5) with hands-on Python notebooks."
+authors:
+  - family-names: Merchan
+    given-names: Pablo
+    orcid: ""
+repository-code: https://github.com/mr-pablinho/drops-course
+url: https://mr-pablinho.github.io/drops-course
+license: MIT
+license-url: https://github.com/mr-pablinho/drops-course/blob/main/LICENSE
+date-released: "2026-06-10"
+keywords:
+  - hydrology
+  - machine learning
+  - deep learning
+  - streamflow
+  - open course
+  - Python
+  - LSTM
+  - flood forecasting
+  - drought

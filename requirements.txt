@@ -1,0 +1,42 @@
+# Core Jupyter Book (pinned to JB1; JB2 is a breaking rewrite — see Decision Log)
+jupyter-book>=1.0.3,<2.0.0
+jupyterquiz>=2.6.0
+
+# Notebook testing
+nbmake>=1.4.0
+pytest>=7.4.0
+papermill>=2.4.0
+
+# Data science stack
+numpy>=1.24.0
+pandas>=2.0.0
+matplotlib>=3.7.0
+plotly>=5.15.0
+scipy>=1.11.0
+statsmodels>=0.14.0
+scikit-learn>=1.3.0
+
+# Deep learning (PyTorch only — single framework throughout)
+torch>=2.0.0
+
+# Hydrology data sources
+dataretrieval>=1.0.0        # USGS NWIS
+xarray>=2023.6.0            # ERA5 via ARCO Zarr
+gcsfs>=2023.6.0             # Google Cloud Storage for ARCO-ERA5
+fsspec>=2023.6.0
+
+# Spatial / mapping
+geopandas>=0.13.0
+
+# Explainability
+shap>=0.43.0
+
+# Drought indices
+climate-indices>=1.0.10
+
+# Extreme value / flood frequency
+lmoments3>=1.0.5
+
+# Utilities
+tqdm>=4.65.0
+joblib>=1.3.0

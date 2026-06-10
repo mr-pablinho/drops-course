@@ -1,0 +1,26 @@
+# JupyterBook build outputs
+book/_build/
+
+# Jupyter
+.ipynb_checkpoints/
+*.pyc
+__pycache__/
+
+# Python envs
+.venv/
+venv/
+*.egg-info/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets
+.env
+*.key
+
+# Large data (only samples/ is committed, never full datasets)
+data/*.nc
+data/*.csv
+data/*.parquet
+!data/samples/*.parquet
